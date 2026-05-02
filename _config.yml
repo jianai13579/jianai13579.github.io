@@ -2,6 +2,9 @@
 repository: jianai13579/jianai13579.github.io
 favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: JianAi
 title: Unity Game Client Developer
