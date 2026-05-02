@@ -1,15 +1,14 @@
 # Site
-repository: yourusername/yourusername.github.io
+repository: jianai13579/jianai13579.github.io
 favicon: images/favicon.ico
 
 # Personal info
-name: 简爱
+name: JianAi
 title: Unity Game Client Developer
-email: your_email@example.com
-website: https://yourusername.github.io
+website: https://jianai13579.github.io
 
 # Social links
-github_username: yourusername
+github_username: jianai13579
 # 可选：
 # linkedin_username: your-linkedin
 
@@ -51,7 +50,6 @@ content:
     content:
       - layout: top-middle
         title: 双人坦克大战（Unity）
-
         description: |
           - 实现双人同屏独立输入系统，避免输入冲突
           - 开发坦克移动、碰撞检测与弹道系统
@@ -74,7 +72,7 @@ content:
       - Unity（UGUI / Animator / NavMesh）
       - 数据结构与操作系统基础
       - Git
-      - Python（基础）
+      - Python
 
   - title: Education
     layout: list
