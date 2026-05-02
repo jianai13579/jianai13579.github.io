@@ -1,127 +1,106 @@
 # Site
-repository: sproogen/resume-theme
+repository: yourusername/yourusername.github.io
 favicon: images/favicon.ico
 
-# Content configuration version
-version: 2
-
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
-
-# Dark Mode (true/false/never)
-darkmode: false
+name: 简爱
+title: Unity Game Client Developer
+email: your_email@example.com
+website: https://yourusername.github.io
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: yourusername
+# 可选：
+# linkedin_username: your-linkedin
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: |
+  Unity客户端开发工程师，具备游戏系统开发与性能优化经验，参与商业项目开发。
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  熟悉 Unity 引擎开发流程，具备背包系统、商店系统等实际项目经验，
+  关注性能优化与用户体验。
 
+# Experience Section
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Unity客户端开发（某游戏公司A）
+        sub_title: 2025.7 – 2025.11
+        description: |
+          - 开发背包系统，设计限时道具生命周期管理（过期时间 + 优先级排序）
+          - 实现 UI 实时刷新与过期提示逻辑
+          - 接入红点系统，实现状态绑定与动态更新
+          - 使用循环滚动列表优化性能，避免大规模加载卡顿
+          - 参与商店系统开发，实现礼包数据解析与动态展示
+          - 优化商品加载动画与限购提示
+
+      - layout: left
+        title: Unity客户端开发（某游戏公司B）
+        sub_title: 2025.1 – 2025.4
+        description: |
+          - 独立完成朋友圈系统开发（UI + 数据逻辑）
+          - 实现商店限购功能，提高系统稳定性
+          - 设计多分辨率适配方案，减少 UI 异常
+          - 参与 2D 社交游戏核心界面开发
+
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        title: 双人坦克大战（Unity）
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        description: |
+          - 实现双人同屏独立输入系统，避免输入冲突
+          - 开发坦克移动、碰撞检测与弹道系统
+          - 构建命中触发链（特效 + 伤害同步）
+          - 使用对象池管理子弹，减少 GC，提升性能
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: top-middle
+        title: 生存射击（Unity）
+        link: https://b23.tv/BV1Zt9xBqEqS
+        description: |
+          - 基于 NavMesh 实现 AI 自动寻路与动态避障
+          - 使用射线检测实现射击命中判定
+          - 使用 Animator 构建角色状态机
+          - 提升游戏交互一致性与流畅度
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      - C / C++ / C#
+      - Unity（UGUI / Animator / NavMesh）
+      - 数据结构与操作系统基础
+      - Git
+      - Python（基础）
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 上海理工大学
+        sub_title: 计算机技术（硕士）
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+      - layout: left
+        title: 西安理工大学
+        sub_title: 本科
+
+  - title: Research
+    layout: text
+    content: |
+      SCI Paper:
+      Parameter-Efficient Transfer Learning of Prompts and Adapters on Vision-Language Models
+      (Multimedia Systems)
+
+  - title: Awards
+    layout: text
+    content: |
+      - 国家奖学金（研究生）
+      - 数学竞赛二等奖
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+remote_theme: sproogen/modern-resume-theme
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
