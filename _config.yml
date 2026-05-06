@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: JianAi
-title: Unity Game Client Developer
+title: Unity客户端开发工程师
 website: https://jianai13579.github.io
 
 # Social links
@@ -25,7 +25,7 @@ about_content: |
 
 # Experience Section
 content:
-  - title: Experience
+  - title: 实习经历
     layout: list
     content:
       - layout: left
@@ -48,7 +48,7 @@ content:
           - 设计多分辨率适配方案，减少 UI 异常
           - 参与 2D 社交游戏核心界面开发
 
-  - title: Projects
+  - title: 项目经历
     layout: list
     content:
       - layout: top-middle
@@ -66,7 +66,7 @@ content:
           - 使用射线检测实现射击命中判定
           - 使用 Animator 构建角色状态机
 
-  - title: Skills
+  - title: 技能
     layout: text
     content: |
       - C / C# / C++
@@ -76,31 +76,31 @@ content:
       - Python
       - 图形学基础
 
-  - title: Education
+  - title: 教育经历
     layout: list
     content:
       - layout: left
         title: 上海理工大学
         sub_title: 计算机技术（硕士）
         description: |
-        排名：6/51  
-        主修课程：算法设计与分析（96）、组合数学（92）、计算智能及其应用（91）
+          排名：6/51  
+          主修课程：算法设计与分析（96）、组合数学（92）、计算智能及其应用（91）
 
       - layout: left
         title: 西安理工大学
         sub_title: 给排水科学与工程（本科）
         description: |
-        排名：15/61  
-        主修课程：C语言程序设计（97）、高等数学（81/95）、大学物理（87/91）、概率论及数理统计（90）
+          排名：15/61  
+          主修课程：C语言程序设计（97）、高等数学（81/95）、大学物理（87/91）、概率论及数理统计（90）
 
-  - title: Research
+  - title: 科研经历
     layout: text
     content: |
       SCI Paper:
       Parameter-Efficient Transfer Learning of Prompts and Adapters on Vision-Language Models
       (Multimedia Systems)
 
-  - title: Awards
+  - title: 获奖情况
     layout: text
     content: |
       - 国家奖学金（研究生）
