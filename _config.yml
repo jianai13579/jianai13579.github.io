@@ -56,7 +56,6 @@ content:
         description: |
           - 实现双人同屏独立输入系统，避免输入冲突
           - 开发坦克移动、碰撞检测与弹道系统
-          - 构建命中触发链（特效 + 伤害同步）
           - 使用对象池管理子弹，减少 GC，提升性能
 
       - layout: top-middle
@@ -66,16 +65,16 @@ content:
           - 基于 NavMesh 实现 AI 自动寻路与动态避障
           - 使用射线检测实现射击命中判定
           - 使用 Animator 构建角色状态机
-          - 提升游戏交互一致性与流畅度
 
   - title: Skills
     layout: text
     content: |
-      - C / C++ / C#
-      - Unity（UGUI / Animator / NavMesh）
+      - C / C# / C++
+      - Unity
       - 数据结构与操作系统基础
       - Git
       - Python
+      - 图形学基础
 
   - title: Education
     layout: list
@@ -83,10 +82,16 @@ content:
       - layout: left
         title: 上海理工大学
         sub_title: 计算机技术（硕士）
+        description: |
+        排名：6/51  
+        主修课程：算法设计与分析（96）、组合数学（92）、计算智能及其应用（91）
 
       - layout: left
         title: 西安理工大学
-        sub_title: 本科
+        sub_title: 给排水科学与工程（本科）
+        description: |
+        排名：15/61  
+        主修课程：C语言程序设计（97）、高等数学（81/95）、大学物理（87/91）、概率论及数理统计（90）
 
   - title: Research
     layout: text
@@ -99,7 +104,10 @@ content:
     layout: text
     content: |
       - 国家奖学金（研究生）
-      - 数学竞赛二等奖
+      - 陕西省第十二次大学生高等数学竞赛二等奖
+      - 研究生二等奖学金
+      - 蔚蓝奖学金（2019、2020年连续两年获得，本专业共三人获得）
+      
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
