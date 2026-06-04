@@ -54,7 +54,7 @@ content:
         link: https://b23.tv/BV1Zt9xBqEqS
         description: |
           - 基于 NavMeshAgent + 状态类 FSM 实现敌人巡逻、感知、追击、攻击、搜索与死亡 AI 流程
-          - 使用距离、视野角度与 Raycast / Linecast 遮挡检测构建敌人感知系统
+          - 使用距离、视野角度与 Linecast 遮挡检测构建敌人感知系统
           - 基于 ScriptableObject 设计配置化武器系统，支持多武器切换、独立弹匣、换弹与散射参数配置
           - 基于 Raycast 实现射击命中判定，并联动伤害、受击特效、弹道线与音效反馈
           - 接入 xLua 实现 Lua 生存模式刷怪逻辑，根据存活时间、波次数、击杀数等动态计算刷怪规则
