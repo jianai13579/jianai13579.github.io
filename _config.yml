@@ -12,16 +12,15 @@ website: https://jianai13579.github.io
 
 # Social links
 github_username: jianai13579
-# 可选：
-# linkedin_username: your-linkedin
 
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Unity客户端开发工程师，具备游戏系统开发与性能优化经验，参与商业项目开发。
+  Unity客户端开发工程师，计算机技术专业硕士，具备商业项目实习经验与多个 Unity 项目开发实践。
 
-  熟悉 Unity 引擎开发流程，具备背包系统、商店系统等实际项目经验，
-  关注性能优化与用户体验。
+  熟悉 Unity 引擎、UGUI、C# 开发与客户端业务开发流程，参与过背包系统、商店系统、朋友圈系统、多分辨率 UI 适配等功能开发。
+
+  具备 xLua 玩法脚本开发实践，了解简化版 Lua 热更新加载流程；关注系统解耦、性能优化、用户体验与工程效率。
 
 # Experience Section
 content:
@@ -29,52 +28,55 @@ content:
     layout: list
     content:
       - layout: left
-        title: Unity客户端开发（某游戏公司A）
+        title: Unity客户端开发实习生｜上海恋之翼网络科技有限公司
         sub_title: 2025.7 – 2025.11
         description: |
-          - 开发背包系统，设计限时道具生命周期管理（过期时间 + 优先级排序）
-          - 实现 UI 实时刷新与过期提示逻辑
-          - 接入红点系统，实现状态绑定与动态更新
-          - 使用循环滚动列表优化性能，避免大规模加载卡顿
-          - 参与商店系统开发，实现礼包数据解析与动态展示
-          - 优化商品加载动画与限购提示
+          - 参与乙女向手游客户端开发，负责背包系统与商店系统相关功能
+          - 实现限时道具生命周期管理，支持过期时间判断、优先级排序与过期提示
+          - 接入背包红点系统，实现状态绑定、动态更新与 UI 实时刷新
+          - 基于 SuperScrollView 实现循环滚动列表优化，降低大规模道具列表加载开销
+          - 参与商店系统开发，实现礼包数据解析、动态展示、限购提示与商品加载动画优化
 
       - layout: left
-        title: Unity客户端开发（某游戏公司B）
+        title: Unity客户端开发实习生｜上海垂耳多比科技有限公司
         sub_title: 2025.1 – 2025.4
         description: |
-          - 独立完成朋友圈系统开发（UI + 数据逻辑）
-          - 实现商店限购功能，提高系统稳定性
-          - 设计多分辨率适配方案，减少 UI 异常
-          - 参与 2D 社交游戏核心界面开发
+          - 参与 2D 社交游戏客户端开发，负责朋友圈系统、商店模块与 UI 适配相关功能
+          - 独立完成朋友圈系统开发，包括界面搭建、数据逻辑与交互流程
+          - 实现商店限购功能，提升模块稳定性与业务完整性
+          - 设计并实现多分辨率 UI 适配方案，减少不同设备下的界面异常
 
   - title: 项目经历
     layout: list
     content:
       - layout: top-middle
-        title: 双人坦克大战（Unity）
-        description: |
-          - 实现双人同屏独立输入系统，避免输入冲突
-          - 开发坦克移动、碰撞检测与弹道系统
-          - 使用对象池管理子弹，减少 GC，提升性能
-
-      - layout: top-middle
         title: 生存射击（Unity）
         link: https://b23.tv/BV1Zt9xBqEqS
         description: |
-          - 基于 NavMesh 实现 AI 自动寻路与动态避障
-          - 使用射线检测实现射击命中判定
-          - 使用 Animator 构建角色状态机
+          - 基于 NavMeshAgent + 状态类 FSM 实现敌人巡逻、感知、追击、攻击、搜索与死亡 AI 流程
+          - 使用距离、视野角度与 Raycast / Linecast 遮挡检测构建敌人感知系统
+          - 基于 ScriptableObject 设计配置化武器系统，支持多武器切换、独立弹匣、换弹与散射参数配置
+          - 基于 Raycast 实现射击命中判定，并联动伤害、受击特效、弹道线与音效反馈
+          - 接入 xLua 实现 Lua 生存模式刷怪逻辑，根据存活时间、波次数、击杀数等动态计算刷怪规则
+          - 实现简化版 Lua 热更新加载流程，支持从模拟远程服务器拉取 Lua 脚本并缓存到 persistentDataPath
+          - 基于 GameEvents 事件中心解耦战斗、计分、对象池与 UI 模块，提升系统扩展性与维护性
+
+      - layout: top-middle
+        title: 双人坦克大战（Unity）
+        description: |
+          - 实现双人同屏独立输入系统，避免输入冲突
+          - 开发坦克移动、碰撞检测、子弹发射与伤害判定逻辑
+          - 使用对象池管理子弹对象，减少频繁创建销毁带来的性能开销
+          - 实现基础游戏流程、胜负判定与 UI 展示
 
   - title: 技能
     layout: text
     content: |
-      - C / C# / C++
-      - Unity
-      - 数据结构与操作系统基础
-      - Git
-      - Python
-      - 图形学基础
+      - C# / C++ / Python / Lua
+      - Unity / UGUI / xLua
+      - NavMesh / Animator / ScriptableObject / 对象池 / 事件系统
+      - 数据结构与算法 / 图形学基础 / 常用设计模式
+      - Git / Codex + MCP AI 辅助开发
 
   - title: 教育经历
     layout: list
@@ -83,14 +85,14 @@ content:
         title: 上海理工大学
         sub_title: 计算机技术（硕士）
         description: |
-          排名：6/51  
+          成绩排名：专业前 3%  
           主修课程：算法设计与分析（96）、组合数学（92）、计算智能及其应用（91）
 
       - layout: left
         title: 西安理工大学
         sub_title: 给排水科学与工程（本科）
         description: |
-          排名：15/61  
+          成绩排名：专业前 20%
           主修课程：C语言程序设计（97）、高等数学（81/95）、大学物理（87/91）、概率论及数理统计（90）
 
   - title: 科研经历
@@ -103,11 +105,10 @@ content:
   - title: 获奖情况
     layout: text
     content: |
-      - 国家奖学金（研究生）
-      - 陕西省第十二次大学生高等数学竞赛二等奖
+      - 研究生国家奖学金
       - 研究生二等奖学金
+      - 陕西省第十二次大学生高等数学竞赛二等奖
       - 蔚蓝奖学金（2019、2020年连续两年获得，本专业共三人获得）
-      
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
